@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<link rel = "stylesheet" href = "D:/FullStack/Presets/framework-project/quark.css">
+	<link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Spartan">	
+	<script src = "clock.js"></script>
+	<title>Best Clock Ever | Homepage</title>
+	<style>
+		@font-face{
+			font-family: 'Lcd Phone';
+			src: url("D:/FullStack/fonts/LcdPhone-wgZ2.ttf");
+		}
+		
+		header, footer{
+			font-family: Spartan;
+			font-weight: bold;
+		}
+		
+		header{
+			font-size: 4rem;
+		}
+		
+		.cosi{
+			height: 100vh;
+		}
+		
+		#hora{
+			font-family: 'Lcd Phone';
+			font-size: 5rem;
+		}
+		
+		@media screen and (max-width: 800px){
+			.cosi{
+				height: 50vh;
+			}
+			
+			header{
+				font-size: 2rem;
+			}
+		}
+	</style>
+</head>
+<body class = "bg-black">
+	<div class = "row col-full">
+	<header class = "col-half center bg-red font-black cosi">
+		<h1>Best Clock Ever.</h1>
+	</header>
+	<div class = "col-half padded center font-red" class = "cosi">
+		<h1 id = "hora"></h1>
+	</div>
+	</div>
+	<footer class = "row col-full text-c bg-red font-black padded fixed-down">
+		<p>Coded by Diestro Corleone</p><p><a href = "mailto:matias.perez.mcd@gmail.com" class = "font-white">E-mail me!</a></p>
+	</footer>
+</body>
+</html>	
